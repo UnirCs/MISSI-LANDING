@@ -30,6 +30,7 @@ Haz click en el enlace que te llevará al repositorio de ejercicios de tu promoc
   
 | 🎓 Promoción | 🎁 Repositorio | 🚥 Status
 |--|--|--|
+| GLOBAL   | [Repositorio con los códigos de clase y ejercicios](https://github.com/UnirCs/DWFS-GLOBAL) | <div align="center"> 🟢 </div>
 | PER 7610 | [Repositorio de ejercicios PER 7610](https://github.com/UnirCs/DWFS-PER7610-2223) | <div align="center"> 🔴 </div>
 | PER 7660 | [Repositorio de ejercicios PER 7660](https://github.com/UnirCs/DWFS-PER7660-2223) | <div align="center"> 🔴 </div>
 | PER 8408 | [Repositorio de ejercicios PER 8408](https://github.com/UnirCs/DWFS-PER8408-2324) | <div align="center"> 🔴 </div>
