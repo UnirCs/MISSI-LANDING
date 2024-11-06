@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.contact-info h2,
+.summary h2,
+.skills h2,
+.experience h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 20px;
+}
+
+.summary p {
+    font-style: italic;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    padding: 5px;
+    background-color: #f0f0f0;
+    margin: 5px 0;
+}
+
+.experience .job {
+    margin-bottom: 20px;
+}
+
+.experience .job h3 {
+    margin: 0;
+    color: #555;
+}

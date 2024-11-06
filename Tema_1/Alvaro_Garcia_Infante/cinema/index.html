@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UNIR-CINEMA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>UNIR-CINEMA</h1>
+        <h2>Reserva de Butacas</h2>
+    </header>
+
+    <section class="cinema-screen">
+        <h3>Pantalla de Cine</h3>
+        <div class="screen"></div>
+    </section>
+
+    <section class="seating-chart">
+        <h3>Selecciona tus Asientos</h3>
+        <div class="seats">
+            <div class="row">
+                <button class="seat available" data-seat="A1">A1</button>
+                <button class="seat available" data-seat="A2">A2</button>
+                <button class="seat available" data-seat="A3">A3</button>
+                <button class="seat available" data-seat="A4">A4</button>
+                <button class="seat available" data-seat="A5">A5</button>
+            </div>
+            <div class="row">
+                <button class="seat available" data-seat="B1">B1</button>
+                <button class="seat available" data-seat="B2">B2</button>
+                <button class="seat unavailable" data-seat="B3">B3</button>
+                <button class="seat available" data-seat="B4">B4</button>
+                <button class="seat available" data-seat="B5">B5</button>
+            </div>
+            <div class="row">
+                <button class="seat available" data-seat="C1">C1</button>
+                <button class="seat available" data-seat="C2">C2</button>
+                <button class="seat unavailable" data-seat="C3">C3</button>
+                <button class="seat available" data-seat="C4">C4</button>
+                <button class="seat available" data-seat="C5">C5</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="reservation-form">
+        <form action="#" method="POST">
+            <label for="seats">Indica cuantos asientos quieres reservar</label>
+            <input type="number" id="seats" name="seats" min="1" max="5" required>
+            <button type="submit" class="btn-reserve">Confirmar Reserva</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Cine UNIR-CINEMA</p>
+        <p>Dirección: Calle Avenida de la Paz, 137, Logroño</p>
+        <p>Teléfono: 941209743</p>
+        <p>Email: cinefullstack@unircinema.com</p>
+    </footer>
+</div>
+
+</body>
+</html>
