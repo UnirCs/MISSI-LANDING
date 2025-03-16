@@ -35,7 +35,8 @@ Haz click en el enlace que te llevará al repositorio de ejercicios de tu promoc
 | PER 7660 | [Repositorio de entregas de ejercicios PER 7660](https://github.com/UnirCs/DWFS-PER7660-2223) | <div align="center"> 🔴 </div>
 | PER 8408 | [Repositorio de entregas de ejercicios PER 8408](https://github.com/UnirCs/DWFS-PER8408-2324) | <div align="center"> 🔴 </div>
 | PER 9208 | [Repositorio de entregas de ejercicios PER 9208](https://github.com/UnirCs/DWFS-PER9208-2324) | <div align="center"> 🔴 </div>
-| PER 11090 | [Repositorio de entregas de ejercicios PER 11090](https://github.com/UnirCs/DWFS-PER11090-2425) | <div align="center"> 🟢 </div>
+| PER 11090 | [Repositorio de entregas de ejercicios PER 11090](https://github.com/UnirCs/DWFS-PER11090-2425) | <div align="center"> 🔴 </div>
+| PER 11392 | [Repositorio de entregas de ejercicios PER 11392](https://github.com/UnirCs/DWFS-PER11392-2425) | <div align="center"> 🟢 </div>
 
 </div>
 
