@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Butacas - UNIR-CINEMA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Reserva de Butacas - UNIR-CINEMA</h1>
+        
+        <div class="screen">Pantalla</div>
+        
+        <form>
+            <div id="seats" class="seating-area">
+                <div class="row">
+                    <div class="seat occupied"><label>1-1</label></div>
+                    <div class="seat"><input type="checkbox" id="s1-2"><label for="s1-2">1-2</label></div>
+                    <div class="seat"><input type="checkbox" id="s1-3"><label for="s1-3">1-3</label></div>
+                    <div class="seat occupied"><label>1-4</label></div>
+                    <div class="seat"><input type="checkbox" id="s1-5"><label for="s1-5">1-5</label></div>
+                </div>
+            </div>
+            
+            <label for="numSeats">Número de asientos a reservar:</label>
+            <input type="number" id="numSeats" min="1" max="10">
+            <button type="submit">Confirmar Reserva</button>
+        </form>
+        
+        <footer>
+            <p>UNIR-CINEMA | Dirección: Calle Falsa 123, Ciudad | Tel: 123-456-789 | Email: contacto@unircinema.com</p>
+        </footer>
+    </div>
+</body>
+</html>
