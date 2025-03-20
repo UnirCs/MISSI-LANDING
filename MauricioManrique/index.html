@@ -5,44 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reserva de Butacas - UNIR-CINEMA</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        .screen {
+            width: 80%;
+            height: 40px;
+            background: #ccc;
+            margin: 20px auto;
+            text-align: center;
+            line-height: 40px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .seat {
+            width: 35px;
+            height: 35px;
+            margin: 5px;
+            background-color: #28a745;
+            border-radius: 5px;
+            display: inline-block;
+            text-align: center;
+            line-height: 35px;
+            color: white;
+            font-size: 14px;
+        }
+        .seat.occupied {
+            background-color: #dc3545;
+        }
+        .seat.selected {
+            background-color: #ffc107;
+        }
+        .seat input {
+            display: none;
+        }
+        .seat label {
+            width: 100%;
+            height: 100%;
+            display: block;
+            cursor: pointer;
+        }
+        .seat input:checked + label {
+            background-color: #ffc107;
+        }
+    </style>
 </head>
-<body class="container mt-4">
-    <h2 class="text-center mb-4">Reserva de Butacas - UNIR-CINEMA</h2>
+<body class="container text-center">
+    <h1 class="my-4">Reserva de Butacas - UNIR-CINEMA</h1>
     
     <div class="screen">Pantalla</div>
     
-    <div class="text-center">
-        <div class="d-inline-block">
-            <!-- Fila de asientos -->
-            <div class="d-flex justify-content-center mb-2">
-                <div class="seat">1</div>
-                <div class="seat occupied">2</div>
-                <div class="seat">3</div>
-                <div class="seat occupied">4</div>
-                <div class="seat">5</div>
-            </div>
-            <div class="d-flex justify-content-center mb-2">
-                <div class="seat">6</div>
-                <div class="seat">7</div>
-                <div class="seat occupied">8</div>
-                <div class="seat">9</div>
-                <div class="seat">10</div>
+    <form class="my-4">
+        <div id="seats" class="d-flex flex-wrap justify-content-center">
+            <!-- Generación de butacas de forma estática -->
+            <div class="d-inline-block">
+                <div class="seat occupied"><label>1-1</label></div>
+                <div class="seat"><input type="checkbox" id="s1-2"><label for="s1-2">1-2</label></div>
+                <div class="seat"><input type="checkbox" id="s1-3"><label for="s1-3">1-3</label></div>
+                <div class="seat occupied"><label>1-4</label></div>
+                <div class="seat"><input type="checkbox" id="s1-5"><label for="s1-5">1-5</label></div>
             </div>
         </div>
-    </div>
-
-    <form class="mt-4 text-center">
-        <label for="numAsientos" class="form-label">Número de asientos a reservar:</label>
-        <input type="number" id="numAsientos" class="form-control w-25 mx-auto" min="1" max="5">
+        
+        <label for="numSeats" class="form-label mt-3">Número de asientos a reservar:</label>
+        <input type="number" id="numSeats" class="form-control w-25 mx-auto" min="1" max="10">
         <button type="submit" class="btn btn-primary mt-3">Confirmar Reserva</button>
     </form>
-
-    <footer class="mt-5 p-3 bg-dark text-white text-center">
-        <p><strong>UNIR-CINEMA</strong></p>
-        <p>Dirección: Calle Falsa 123, Ciudad</p>
-        <p>Teléfono: +34 600 123 456</p>
-        <p>Email: contacto@unircinema.com</p>
+    
+    <footer class="bg-dark text-white py-3 mt-5">
+        <p class="mb-0">UNIR-CINEMA | Dirección: Calle Falsa 123, Ciudad | Tel: 123-456-789 | Email: contacto@unircinema.com</p>
     </footer>
 </body>
 </html>
